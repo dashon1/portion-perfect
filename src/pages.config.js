@@ -17,7 +17,8 @@
  *       "HomePage": HomePage,
  *       "Dashboard": Dashboard,
  *       "Settings": Settings,
- *   }
+ *       "Login": Login,
+}
  *   
  *   export const pagesConfig = {
  *       mainPage: "HomePage",
@@ -29,11 +30,13 @@
  *   import Home from './pages/Home';
  *   import Settings from './pages/Settings';
  *   import __Layout from './Layout.jsx';
+import Login from './pages/Login';
  *
  *   export const PAGES = {
  *       "Home": Home,
  *       "Settings": Settings,
- *   }
+ *       "Login": Login,
+}
  *
  *   export const pagesConfig = {
  *       mainPage: "Home",
@@ -58,6 +61,7 @@ import RecipeDetail from './pages/RecipeDetail';
 import Recipes from './pages/Recipes';
 import ShoppingLists from './pages/ShoppingLists';
 import __Layout from './Layout.jsx';
+import Login from './pages/Login';
 
 
 export const PAGES = {
@@ -71,6 +75,7 @@ export const PAGES = {
     "RecipeDetail": RecipeDetail,
     "Recipes": Recipes,
     "ShoppingLists": ShoppingLists,
+    "Login": Login,
 }
 
 export const pagesConfig = {
